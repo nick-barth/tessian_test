@@ -1,0 +1,67 @@
+:root {
+	font-size: 18px;
+}
+
+html {
+	font-family: 'Rajdhani', sans-serif;
+	background: #FC5C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: var(--modular-base);
+	line-height: 1.3;
+	font-weight: 400;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	padding:0;
+}
+
+.app {
+
+}
+
+.app__header {
+	color: var(--color-white);
+	max-width:40%;
+	text-align:center;
+	margin:auto;
+	padding-bottom:4rem;
+}
+/***
+ * Media queries
+ * -
+ */
+
+ @media (--tablet) {
+	:root {
+		font-size: 19px;
+	 }
+}
+
+@media (--desktop) {
+	:root {
+		font-size: 20px;
+	}
+}
+
+@media (--desktop-medium) {
+	:root {
+		font-size: 22px;
+	}
+}
+
+@media (--desktop-large) {
+	:root {
+		font-size: 24px;
+	}
+}

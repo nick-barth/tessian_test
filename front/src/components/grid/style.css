@@ -1,0 +1,27 @@
+.grid {
+	height: 100%;
+	color: var(--color-white);
+	max-width:80%;
+	margin:auto;
+}
+
+.grid__container {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.grid__input-container {
+ 	flex-grow: 1;
+  	width: 30%;
+	padding:1%;
+}
+
+.grid__input--text {
+	width:100%;
+}
+
+.grid__results {
+	word-wrap: break-word;
+    overflow: hidden;
+}
+

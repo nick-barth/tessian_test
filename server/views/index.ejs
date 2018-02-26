@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nick | Test</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/bundle.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+		<meta name="language" content="EN">
+		<meta name="author" content="Nick, barth.nicholas@gmail.com">
+		<meta name="designer" content="">
+		<meta name="copyright" content="">
+		<meta name="reply-to" content="email@hotmail.com">
+		<meta name="owner" content="">
+		<meta name="coverage" content="Worldwide">
+		<meta name="distribution" content="Global">
+		<meta name="rating" content="General">
+		<meta name="revisit-after" content="7 days">
+
+	</head>
+	<body>
+		<div id="app"></div>
+
+		<script type="text/javascript">
+      		window.env = <%- JSON.stringify(env) %>;
+    	</script>
+
+		<% if(env == 'local'){ %>
+			<script type="text/javascript" src="http://localhost:8777/bundle.js"></script>
+		<% } else{ %>
+			<script type="text/javascript" src="/js/bundle.js"></script>
+		<% } %>
+	</body>
+</html>

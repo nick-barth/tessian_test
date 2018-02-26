@@ -1,6 +1,6 @@
 # Abstract
 
-Used my own custom react-boiler to do a react test for Elder.
+Used my own custom react-boiler to do a react test for Tessian.
 
 # Installation
 To run or modify the app, follow instructions below:
